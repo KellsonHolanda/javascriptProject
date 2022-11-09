@@ -16,13 +16,13 @@ class carro{
         this.valorGasolina = valorGasolina;
         this.gastoMédio = distância/consumo *valorGasolina;
     };
-    
-         
-    
+                
     describe (){
-        console.log(`Com o carro ${this.marca} de cor ${this.cor} o valor gasto para a viagem foi de ${this.gastoMédio}.`)
+        console.log(`Viagei com o carro ${this.marca}, de cor ${this.cor}, e gasstei R$${this.gastoMédio.toFixed(2)} nesta viagem.`)
     };
 }
 const viagem1 = new carro('celta', 'azul', 200, 12, 4.05);
+const viagemRJaSP = new carro('Uno', 'cinza', 433, 13, 4.89);
 
 viagem1.describe();
+viagemRJaSP.describe();
