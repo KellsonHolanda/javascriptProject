@@ -6,7 +6,7 @@ class carro{
     distância;
     consumo;
     valorGasolina;
-    gastoMédio;
+    gastoMédio; 
 
     constructor (marca, cor, distância, consumo, valorGasolina){
         this.marca = marca;
