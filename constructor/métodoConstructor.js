@@ -18,7 +18,7 @@ class carro{
     };
                 
     describe (){
-        console.log(`Viagei com o carro ${this.marca}, de cor ${this.cor}, e gasstei R$${this.gastoMédio.toFixed(2)} nesta viagem.`)
+        console.log(`Viagei com o carro ${this.marca}, de cor ${this.cor}, e gastei R$${this.gastoMédio.toFixed(2)} nesta viagem.`)
     };
 }
 const viagem1 = new carro('celta', 'azul', 200, 12, 4.05);
